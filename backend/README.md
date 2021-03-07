@@ -11,4 +11,4 @@ When S3 gets new object, Lambda will trigger and send message to inform the new 
 - Copy index.js code and past to Lambda function and add queryUrl.
 - Add SQS Write policy to Lambda function role
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/33510681/110253205-5c170300-7fcc-11eb-870a-09bd79f82abd.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/33510681/110253306-f414ec80-7fcc-11eb-8ede-e48a28e64298.gif)
