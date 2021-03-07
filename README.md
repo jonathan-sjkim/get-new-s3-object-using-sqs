@@ -1,4 +1,3 @@
-# s3-sync-using-sqs-js
 ## Overview 
 To sync [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) bucket to local environment, local machine needs to informed when S3 bucket gets new objects. To achive this goal with simple method, I used [Amazon SQS](https://aws.amazon.com/sqs/?nc1=h_ls) to inform that the new bucket uploaded and get the new bucket to local machine. I used [Amazon SQS FIFO Queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html) to avoid losing any messages.
 
