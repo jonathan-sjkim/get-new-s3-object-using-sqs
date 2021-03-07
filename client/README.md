@@ -10,7 +10,8 @@ The client will do as below. I used SQS Consumer package(detail in Resources).
 - run command `cd s3-sync-using-sqs-js/client`
 - run command `cp config-sample.json config.json`
 - add your credentials and region in `config.json`
-- add your SQS queue url in `app.js` to `queryUrl`. 
+- add your SQS queue url in `app.js` file to `queryUrl` parameter. 
+- run command `npm install`
 - run command `node app.js`
 
 ## NOTE
