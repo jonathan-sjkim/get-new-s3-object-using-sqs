@@ -6,7 +6,3 @@ When S3 bucket gets new object, Lambda will trigger by PUT event and Lambda func
 
 ## Architecutre
 ![architecture](https://user-images.githubusercontent.com/33510681/110249302-ea818980-7fb8-11eb-990f-394a262c88db.png)
-
-## Resources
-- SQS Consumer: <https://www.npmjs.com/package/sqs-consumer>
-- SQS JavaScript SDK: <https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html>
