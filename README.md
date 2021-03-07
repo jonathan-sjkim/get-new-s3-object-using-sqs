@@ -1,1 +1,1 @@
-# get-new-s3-object-using-sqs
+# get New Object in S3 using SQS
