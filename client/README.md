@@ -10,8 +10,11 @@ The client will do as below. I used SQS Consumer package(detail in Resources).
 - run command `cd s3-sync-using-sqs-js/client`
 - run command `cp config-sample.json config.json`
 - add your credentials and region in `config.json`
-- add your SQS queue url in `app.js` to `queryUrl`. You have to make SQS FIFO queue before. See backend instruction.
+- add your SQS queue url in `app.js` to `queryUrl`. 
 - run command `node app.js`
+
+## NOTE
+- You have to make SQS FIFO queue before. See backend instruction.
 
 ## Resources
 - SQS Consumer: <https://www.npmjs.com/package/sqs-consumer>
