@@ -8,4 +8,4 @@ When S3 bucket gets new object, Lambda will trigger by PUT event and Lambda func
 ![architecture](https://user-images.githubusercontent.com/33510681/110249302-ea818980-7fb8-11eb-990f-394a262c88db.png)
 
 *IMPORTANT NOTE: Deploying this demo application in your AWS account will create and consume AWS resources, which will cost money.*
-*This project is not for production usage.*
+*IMPORTANT NOTE: This project is not for production usage.*
